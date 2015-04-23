@@ -52,7 +52,7 @@
   <project name="Cyanogenmod/android_device_moto_shamu" path="device/moto/shamu" remote="github" revision="cm-12.1" />
   <project name="Cyanogenmod/android_kernel_moto_shamu" path="kernel/moto/shamu" remote="github" revision="cm-12.1" />
   <project name="Cyanogenmod/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="cm-12.1" />
-  <project name="varund7726/android_kernel_motorola_titan" path="kernel/motorola/titan" remote="github" revision="cm-12.0" />
+  <project name="Cyanogenmod/android_kernel_motorola_titan" path="kernel/motorola/titan" remote="github" revision="cm-12.0" />
   <project name="lg-devs/android_device_lge_f320" path="device/lge/f320" remote="github" revision="cm-12.0" />
   <project name="CyanogenMod/android_device_motorola_titan" path="device/motorola/titan" remote="github" revision="cm-12.1" />
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-12.1" />
