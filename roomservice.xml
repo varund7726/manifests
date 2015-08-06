@@ -45,10 +45,8 @@
   <project name="CyanogenMod/android_device_lge_mako" path="device/lge/mako" remote="github" revision="cm-12.1" />
   <project name="ResurrectionRemix-Devices/android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="github" revision="cm-12.1" />
   <project name="CyanogenMod/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-12.1" />
-  <project name="CyanogenMod/android_kernel_samsung_tuna" path="kernel/samsung/tuna" remote="github" />
-  <remove-project name="CyanogenMod/android_kernel_samsung_tuna" path="kernel/samsung/tuna" remote="github" />
-  <project name="Ziyann/omap" path="kernel/samsung/tuna" remote="github" revision="stable" />
-  <project name="Ziyann/android_device_samsung_tuna" path="device/samsung/tuna" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_kernel_samsung_tuna" path="kernel/samsung/tuna" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_device_samsung_tuna" path="device/samsung/tuna" remote="github" revision="cm-12.1" />
   <project name="ResurrectionRemix-devices/android_device_lge_hammerhead" path="device/lge/hammerhead" remote="github" revision="lollipop5.1" />
   <project name="CyanogenMod/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" revision="cm-12.1" />
   <project name="CyanogenMod/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" revision="cm-12.1" />
@@ -74,13 +72,9 @@
   <remove-project name="CyanogenMod/android_bionic" />
   <project name="ResurrectionRemix/android_bionic" path="bionic" remote="github" revision="optimized-lollipop5.1" />
   <remove-project name="CyanogenMod/android_frameworks_av" />
-  <remove-project name="CyanogenMod/android_frameworks_rs" />
-  <project name="ResurrectionRemix/android_frameworks_rs" path="frameworks/rs" remote="github" revision="cm-12.1" />
   <project name="Archidroid/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-12.1" />
   <remove-project name="ResurrectionRemix/android_frameworks_native" />
   <project name="Archidroid/android_frameworks_native" path="frameworks/native" remote="github" revision="cm-12.1" />
-  <remove-project name="CyanogenMod/android_hardware_ti_omap4" path="hardware/ti/omap4" remote="github" />
-  <project name="Ziyann/android_hardware_ti_omap4" path="hardware/ti/omap4" remote="github" revision="ifdefs" />
   <project name="Cyanogenmod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
   <project name="Cyanogenmod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung_jf" remote="github" revision="cm-12.1" />
@@ -89,27 +83,34 @@
   <remote fetch="https://bitbucket.org/" name="bitbucket" />
   <remote fetch="https://github.com/VanirAOSP/" name="vr" />
   <remote fetch="https://github.com/Team-Validus/" name="tv" />
-  <project name="UBERTC/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-linaro" remote="bitbucket" revision="master" />
+  <project name="UBERTC/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-uber" remote="bitbucket" revision="master" />
   <project groups="pdk,tradefed" name="ResurrectionRemix/android_build" path="build" remote="github" revision="optimized" />
-  <project name="UBERTC/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-linaro" remote="bitbucket" revision="master" />
+  <project name="UBERTC/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-uber" remote="bitbucket" revision="master" />
   <project name="UBERTC/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" />
   <project name="linaro_toolchains_2015" path="prebuilts/gcc/linux-x86/arm/linaro" remote="vr" revision="L5" />
   <project name="arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" remote="tv" revision="lp" />
   <remove-project name="arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-sm" remote="tv" revision="lp" />
-  <project name="SmokeyMcBong/sm-arm-androideabi-5.0" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.0-sm" remote="bitbucket" revision="master" />
   <project name="UBERTC/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="bitbucket" revision="master" />
-  <project name="SmokeyMcBong/sm-arm-eabi-5.0" path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.0-sm" remote="bitbucket" revision="master" />
   <project name="UBERTC/arm-eabi-6.0" path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0" remote="bitbucket" revision="master" />
   <project name="CyanogenMod/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" />
   <remove-project name="CyanogenMod/android_hardware_libhardware" path="hardware/libhardware" remote="github" />
   <project name="ResurrectionRemix/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="cm-12.1" />
   <project name="UBERTC/arm-eabi-5.1" path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.1" remote="bitbucket" revision="master" />
-  <project name="TeamBliss-LP/arm-linux-androideabi-5.1" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.1" remote="github" revision="master" />
+  <project name="UBERTC/arm-linux-androideabi-5.1" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.1" remote="bitbucket" revision="master" />
+  <project name="safarend/android_device_samsung_ha3g" path="device/samsung/ha3g" remote="github" revision="cm-12.1" />
+  <project name="djmax81/android_kernel_samsung_exynos5420" path="kernel/samsung/ha3g" remote="github" revision="cm-12.0" />
+  <project name="safarend/android_vendor_samsung_ha3g" path="vendor/samsung/ha3g" remote="github" revision="cm-12.0" />
   <project name="mustermaxmueller/clanglibs" path="vendor/clanglibs" remote="github" revision="clang_qcom_3.6" />
+  <project name="CyanogenMod/android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="github" />
+  <project name="CyanogenMod/android_hardware_samsung_slsi_exynos5-insignal" path="hardware/samsung_slsi/exynos5-insignal" remote="github" />
+  <project name="CyanogenMod/android_hardware_samsung_slsi_exynos5420" path="hardware/samsung_slsi/exynos5420" remote="github" />
+  <project name="CyanogenMod/android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" remote="github" />
+  <project name="varund7726/3.5" path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.5" remote="github" revision="master" />
+  <project name="varund7726/3.6" path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.6" remote="github" revision="master" />
+  <project name="varund7726/clang3.6" path="prebuilts/clang/linux-x86/host/arm-linux-androideabi-snapdragonclang3.6" remote="github" revision="master" />
+  <project name="varund7726/aarch64-clang3.6" path="prebuilts/clang/linux-x86/host/aarch64-linux-android-snapdragonclang3.6" remote="github" revision="master" />
+  <remove-project name="CyanogenMod/android_frameworks_rs" />
+  <project groups="pdk" name="ResurrectionRemix/android_frameworks_rs" path="frameworks/rs" />
   <remove-project groups="pdk" name="platform/external/compiler-rt" path="external/compiler-rt" remote="aosp" />
   <project name="mustermaxmueller/compiler-rt" path="external/compiler-rt" remote="github" revision="clang_qcom_3.6" />
-  <project name="varund7726/llvm-Snapdragon_LLVM_for_Android_3.5" path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.5" remote="github" revision="master" />
-  <project name="varund7726/llvm-Snapdragon_LLVM_for_Android_3.6" path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.6" remote="github" revision="master" />
-  <project name="varund7726/arm-linux-androideabi-snapdragonclang3.6" path="prebuilts/clang/linux-x86/host/arm-linux-androideabi-snapdragonclang3.6" remote="github" revision="master" />
-  <project name="varund7726/aarch64-linux-android-snapdragonclang3.6" path="prebuilts/clang/linux-x86/host/aarch64-linux-android-snapdragonclang3.6" remote="github" revision="master" />
 </manifest>
