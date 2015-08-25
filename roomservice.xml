@@ -8,7 +8,7 @@
   <project name="CyanogenMod/android_device_htc_msm8960-common" path="device/htc/msm8960-common" remote="github" revision="cm-12.1" />
   <project name="ResurrectionRemix-devices/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="github" />
   <project name="ResurrectionRemix-devices/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="cm-12.1" />
-  <project name="ResurrectionRemix-Devices/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-12.1" />
+  <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-12.1" />
   <project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo" remote="github" revision="cm-12.1" />
   <project name="CyanogenMod/android_device_samsung_i9300" path="device/samsung/i9300" remote="github" revision="cm-12.0" />
   <project name="CyanogenMod/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="cm-12.0" />
@@ -30,15 +30,16 @@
   <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="cm-12.1" />
   <project name="lg-devs/android_device_lge_d800" path="device/lge/d800" remote="github" revision="cm-12.1-caf" />
   <project name="lg-devs/android_device_lge_d801" path="device/lge/d801" remote="github" revision="cm-12.1-caf" />
-  <project name="lg-devs/android_device_lge_d802" path="device/lge/d802" remote="github" revision="cm-12.1-caf" />
+  <project name="ResurrectionRemix-devices/android_device_lge_d802" path="device/lge/d802" remote="github" revision="cm-12.1-caf" />
   <project name="Cyanogenmod/android_device_lge_d851" path="device/lge/d851" remote="github" revision="cm-12.1" />
+  <project name="Cyanogenmod/android_device_lge_d850" path="device/lge/d850" remote="github" revision="cm-12.1" />
   <project name="lg-devs/android_device_lge_d803" path="device/lge/d803" remote="github" revision="cm-12.1-caf" />
   <project name="lg-devs/android_device_lge_vs980" path="device/lge/vs980" remote="github" revision="cm-12.1-caf" />
   <project name="lg-devs/android_device_lge_ls980" path="device/lge/ls980" remote="github" revision="cm-12.1-caf" />
   <project name="Cyanogenmod/android_kernel_lge_g3" path="kernel/lge/g3" remote="github" revision="cm-12.1" />
   <project name="ResurrectionRemix-Devices/android_kernel_lge_msm8974" path="kernel/lge/msm8974" remote="github" revision="cm-12.1-caf" />
   <project name="Cyanogenmod/android_device_lge_g3-common" path="device/lge/g3-common" remote="github" revision="cm-12.1" />
-  <project name="lg-devs/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-12.1-caf" />
+  <project name="ResurrectionRemix-devices/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-12.1-caf" />
   <project name="ResurrectionRemix-devices/android_device_lge_g2-common" path="device/lge/g2-common" remote="github" revision="cm-12.1-caf" />
   <project name="lg-devs/android_device_lge_qcom-common" path="device/lge/qcom-common" remote="github" revision="cm-12.0" />
   <project name="CyanogenMod/android_device_sony_sirius" path="device/sony/sirius" remote="github" revision="cm-12.1" />
@@ -74,9 +75,8 @@
   <remove-project name="CyanogenMod/android_bionic" />
   <project name="ResurrectionRemix/android_bionic" path="bionic" remote="github" revision="optimized-lollipop5.1" />
   <remove-project name="ResurrectionRemix/android_frameworks_native" />
-  <project name="ArchiDroid/android_frameworks_native" path="frameworks/native" remote="github" revision="cm-12.1" />
+  <project name="Cyanogenmod/android_frameworks_native" path="frameworks/native" remote="github" revision="cm-12.1" />
   <remove-project name="ResurrectionRemix/android_frameworks_av" />
-  <project name="Archidroid/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-12.1" />
   <project name="Cyanogenmod/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" />
   <project name="Cyanogenmod/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung_jf" remote="github" revision="cm-12.1" />
@@ -86,12 +86,10 @@
   <remote fetch="https://github.com/VanirAOSP/" name="vr" />
   <remote fetch="https://github.com/Team-Validus/" name="tv" />
   <project name="UBERTC/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-uber" remote="bitbucket" revision="master" />
-  <project groups="pdk,tradefed" name="ResurrectionRemix/android_build" path="build" remote="github" revision="optimized" />
+  <project groups="pdk,tradefed" name="ResurrectionRemix/android_build" path="build" remote="github" revision="optimized-stable" />
   <project name="UBERTC/arm-linux-androideabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8-uber" remote="bitbucket" revision="master" />
   <project name="UBERTC/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="bitbucket" revision="master" />
-  <project name="linaro_toolchains_2015" path="prebuilts/gcc/linux-x86/arm/linaro" remote="vr" revision="L5" />
   <project name="UBERTC/arm-eabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" remote="bitbucket" revision="master" />
-  <project name="UBERTC/arm-eabi-6.0" path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0-uber" remote="bitbucket" revision="master" />
   <project name="ResurrectionRemix-devices/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="cm-12.1" />
   <remove-project name="CyanogenMod/android_hardware_libhardware" path="hardware/libhardware" remote="github" />
   <project name="ResurrectionRemix/android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="cm-12.1" />
@@ -105,20 +103,11 @@
   <project name="CyanogenMod/android_hardware_samsung_slsi_exynos5-insignal" path="hardware/samsung_slsi/exynos5-insignal" remote="github" />
   <project name="CyanogenMod/android_hardware_samsung_slsi_exynos5420" path="hardware/samsung_slsi/exynos5420" remote="github" />
   <project name="CyanogenMod/android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" remote="github" />
-  <project name="varund7726/3.5" path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.5" remote="github" revision="master" />
-  <project name="varund7726/3.6" path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.6" remote="github" revision="master" />
+  <project name="CMRemix/llvm-Snapdragon_LLVM_for_Android_3.5" path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.5" remote="github" revision="clang_qcom_3.5" />
+  <project name="CMRemix/llvm-Snapdragon_LLVM_for_Android_3.6" path="prebuilts/clang/linux-x86/host/llvm-Snapdragon_LLVM_for_Android_3.6" remote="github" revision="clang_qcom_3.6" />
   <project name="varund7726/clang3.6" path="prebuilts/clang/linux-x86/host/arm-linux-androideabi-snapdragonclang3.6" remote="github" revision="master" />
   <project name="varund7726/aarch64-clang3.6" path="prebuilts/clang/linux-x86/host/aarch64-linux-android-snapdragonclang3.6" remote="github" revision="master" />
-  <remove-project name="CyanogenMod/android_frameworks_rs" />
-  <project groups="pdk" name="ResurrectionRemix/android_frameworks_rs" path="frameworks/rs" />
-  <remove-project groups="pdk" name="platform/external/compiler-rt" path="external/compiler-rt" remote="aosp" />
-  <project name="mustermaxmueller/compiler-rt" path="external/compiler-rt" remote="github" revision="clang_qcom_3.6" />
   <project name="sultanxda/android_packages_apps_SnapdragonCamera" path="packages/apps/SnapdragonCamera" revision="cm-12.1-caf" />
   <project name="Cyanogenmod/android_device_oppo_common" path="device/oppo/common" remote="github" />
-  <project name="ResurrectionRemix/android_system_core" remote="rr" revision="optimized" />
-  <project name="prebuilt_ndk" remote="rr" revision="optimized" />
-  <project name="android_system_extras_su" remote="vrd"  />
-  <project name="android_external_bluetooth_bluedroid" remote="vrd" />
-  <project name="android_frameworks_av" remote="rrd" />		
-  <project name="android_build" remote="rr" />
+  <project name="Cyanogenmod/android_frameworks_av" path="frameworks/av" remote="github" revision="cm-12.1" />
 </manifest>
